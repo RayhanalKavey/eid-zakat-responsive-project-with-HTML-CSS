@@ -1,0 +1,80 @@
+/*
+///////////  |1| TYPOGRAPHY SYSTEM : Rubik
+Font Sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86/ 98
+|7| WHITE SPACE:
+Spacing System (px):
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */
+/* ******************************** */
+/* GENERAL REUSABLE COMPONENTE */
+/* ******************************** */
+:root {
+  --main-color: #ef233c;
+  --background-whiteFont-color: floralwhite;
+}
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+}
+.description {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+.btn {
+}
+.btn:link {
+  font-size: 1.6rem;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--background-whiteFont-color);
+  background-color: var(--main-color);
+  padding: 10px 20px;
+  opacity: 1;
+}
+.btn:visited {
+  color: var(--background-whiteFont-color);
+}
+.btn:hover {
+  /* transition: 0.6s; */
+  background-color: #fa5252;
+}
+.btn:active {
+  background-color: var(--background-whiteFont-color);
+  color: black;
+}
+/* ******************************** */
+/* HERO SectioN */
+/* ******************************** */
+.primary-heading {
+  font-size: 4.4rem;
+  margin-bottom: 2.4rem;
+}
+.hero-section {
+  background-color: aqua;
+
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      rgba(239, 35, 60, 0.73)
+    ),
+    url("minar-in-the-sky.jpg");
+  /* background-image: url("minar-in-the-sky.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero {
+  height: 100vh;
+  /* color: var(--background-whiteFont-color); */
+  /* background-color: bisque; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 9.4rem;
+}
+.container {
+}
+.hero-description {
+}

@@ -50,9 +50,9 @@ Medium:11px
   box-sizing: border-box;
 }
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 html {
   font-size: 65.2%;
