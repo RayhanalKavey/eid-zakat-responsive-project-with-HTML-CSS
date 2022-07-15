@@ -53,3 +53,40 @@ Spacing System (px):
   width: 100%;
   height: 40rem;
 }
+/* ******************************** */
+/* Donation SectioN */
+/* ******************************** */
+.donation-section {
+  background-color: rgb(27, 25, 40);
+}
+.donation {
+  background-color: aqua;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 2.4rem;
+  margin: 0 12.8rem;
+}
+.donation-heading-content {
+  grid-column: 1/-1;
+  grid-row: 1;
+  text-align: center;
+  background-color: blue;
+}
+.tertiary-heading {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+.donation-box {
+  background-color: lightpink;
+  /* width: 50%; */
+  padding: 2.4rem;
+  align-self: stretch;
+  display: flex;
+  gap: 2rem;
+  border-radius: 4px;
+}
+.icon {
+  display: inline-block;
+}
