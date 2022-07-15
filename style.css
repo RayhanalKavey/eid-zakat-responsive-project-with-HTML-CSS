@@ -15,8 +15,6 @@ Spacing System (px):
   margin-bottom: 2.4rem;
 }
 .hero-section {
-  /* background-color: aqua; */
-
   background-image: linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
@@ -29,8 +27,6 @@ Spacing System (px):
 }
 .hero {
   height: 100vh;
-  /* color: var(--background-whiteFont-color); */
-  /* background-color: bisque; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -40,9 +36,6 @@ Spacing System (px):
 /* ******************************** */
 /* Process SectioN */
 /* ******************************** */
-.process-section {
-  /* background-color: aquamarine; */
-}
 .process {
   /* background-color: rgb(35, 59, 51); */
   grid-template-columns: 1fr 1fr;
@@ -56,11 +49,7 @@ Spacing System (px):
 /* ******************************** */
 /* Donation SectioN */
 /* ******************************** */
-.donation-section {
-  background-color: rgb(27, 25, 40);
-}
 .donation {
-  background-color: aqua;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   justify-content: center;
@@ -72,7 +61,6 @@ Spacing System (px):
   grid-column: 1/-1;
   grid-row: 1;
   text-align: center;
-  background-color: blue;
 }
 .tertiary-heading {
   font-size: 2.4rem;
@@ -108,3 +96,16 @@ Spacing System (px):
 /* ******************************** */
 /* Gallery SectioN */
 /* ******************************** */
+.footer-section {
+  background-color: black;
+}
+.footer {
+  font-family: "Edu QLD Beginner", cursive;
+  color: rgba(239, 35, 60, 0.73);
+  padding: 3.2rem 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+.footer-description {
+  color: var(--background-whiteFont-color);
+}

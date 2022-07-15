@@ -53,7 +53,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
-  /* background-color: antiquewhite; */
+  background-color: antiquewhite;
 }
 html {
   font-size: 62.5%;
@@ -63,14 +63,13 @@ html {
 /* ******************************** */
 :root {
   --main-color: #ef233c;
-  --background-whiteFont-color: floralwhite;
+  /* --background-whiteFont-color: floralwhite; */
 }
 .container {
   max-width: 130rem;
   margin: 0 auto;
   margin-bottom: 6.4rem;
   padding: 0 6.4rem;
-  background-color: antiquewhite;
 }
 .description {
   font-size: 1.2rem;
