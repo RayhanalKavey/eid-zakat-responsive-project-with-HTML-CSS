@@ -104,7 +104,15 @@ html {
   background-color: var(--background-whiteFont-color);
   color: black;
 }
+.primary-heading {
+  font-size: 4.4rem;
+  margin-bottom: 2.4rem;
+}
 .secondary-heading {
   font-size: 3rem;
+  margin-bottom: 2.4rem;
+}
+.tertiary-heading {
+  font-size: 2.4rem;
   margin-bottom: 2.4rem;
 }
