@@ -52,8 +52,54 @@ Medium:11px
 body {
   font-family: "Open Sans", sans-serif;
   line-height: 1;
-  /* font-weight: 400; */
+  font-weight: 400;
 }
 html {
-  font-size: 65.2%;
+  font-size: 62.5%;
+}
+/* ******************************** */
+/* GENERAL REUSABLE COMPONENTE */
+/* ******************************** */
+:root {
+  --main-color: #ef233c;
+  --background-whiteFont-color: floralwhite;
+}
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+  padding: 0 3.2rem;
+}
+.description {
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+.grid {
+  display: grid;
+  align-items: center;
+}
+.btn {
+}
+.btn:link {
+  font-size: 1.6rem;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--background-whiteFont-color);
+  background-color: var(--main-color);
+  padding: 10px 20px;
+}
+.btn:visited {
+  color: var(--background-whiteFont-color);
+}
+.btn:hover {
+  /* transition: 0.6s; */
+  background-color: #fa5252;
+}
+.btn:active {
+  background-color: var(--background-whiteFont-color);
+  color: black;
+}
+.secondary-heading {
+  font-size: 3rem;
+  margin-bottom: 2.4rem;
 }

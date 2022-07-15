@@ -6,44 +6,7 @@ Font Sizes (px):
 Spacing System (px):
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
  */
-/* ******************************** */
-/* GENERAL REUSABLE COMPONENTE */
-/* ******************************** */
-:root {
-  --main-color: #ef233c;
-  --background-whiteFont-color: floralwhite;
-}
-.container {
-  max-width: 130rem;
-  margin: 0 auto;
-  margin-bottom: 3.2rem;
-}
-.description {
-  font-size: 1.6rem;
-  margin-bottom: 2.4rem;
-}
-.btn {
-}
-.btn:link {
-  font-size: 1.6rem;
-  display: inline-block;
-  text-decoration: none;
-  color: var(--background-whiteFont-color);
-  background-color: var(--main-color);
-  padding: 10px 20px;
-  opacity: 1;
-}
-.btn:visited {
-  color: var(--background-whiteFont-color);
-}
-.btn:hover {
-  /* transition: 0.6s; */
-  background-color: #fa5252;
-}
-.btn:active {
-  background-color: var(--background-whiteFont-color);
-  color: black;
-}
+
 /* ******************************** */
 /* HERO SectioN */
 /* ******************************** */
@@ -52,7 +15,7 @@ Spacing System (px):
   margin-bottom: 2.4rem;
 }
 .hero-section {
-  background-color: aqua;
+  /* background-color: aqua; */
 
   background-image: linear-gradient(
       to bottom,
@@ -74,7 +37,19 @@ Spacing System (px):
   justify-content: center;
   padding: 0 9.4rem;
 }
-.container {
+/* ******************************** */
+/* Process SectioN */
+/* ******************************** */
+.process-section {
+  /* background-color: aquamarine; */
 }
-.hero-description {
+.process {
+  /* background-color: rgb(35, 59, 51); */
+  grid-template-columns: 1fr 1fr;
+  gap: 8rem;
+  justify-content: start;
+}
+.process-img {
+  width: 100%;
+  height: 40rem;
 }
