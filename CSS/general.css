@@ -68,7 +68,7 @@ html {
 .container {
   max-width: 130rem;
   margin: 0 auto;
-  margin-bottom: 3.2rem;
+  margin-bottom: 6.4rem;
   padding: 0 6.4rem;
   background-color: antiquewhite;
 }
@@ -79,6 +79,9 @@ html {
 .grid {
   display: grid;
   align-items: center;
+}
+.flex {
+  display: flex;
 }
 .btn {
 }

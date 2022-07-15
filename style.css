@@ -90,3 +90,21 @@ Spacing System (px):
 .icon {
   display: inline-block;
 }
+/* ******************************** */
+/* Gallery SectioN */
+/* ******************************** */
+.gallery {
+  gap: 2.4rem;
+  justify-content: center;
+}
+.gallery-img {
+  /* display: inline-block; */
+  width: 100%;
+  height: 60rem;
+  /* height: 100%; */
+}
+.gallery-img-box {
+}
+/* ******************************** */
+/* Gallery SectioN */
+/* ******************************** */
