@@ -112,6 +112,11 @@
     margin-bottom: 8rem;
     padding: 0 3.2rem;
   }
+  .footer-section .container,
+  .footer-section .description {
+    margin-bottom: 0;
+    padding: 1.6rem 0;
+  }
 }
 @media (max-width: 29em) {
   html {
