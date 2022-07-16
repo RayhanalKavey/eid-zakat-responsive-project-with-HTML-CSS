@@ -92,6 +92,7 @@ html {
   background-color: var(--main-color);
   padding: 10px 20px;
   border-radius: 4px;
+  transition: all 0.2s linear;
 }
 .btn:visited {
   color: var(--background-whiteFont-color);
